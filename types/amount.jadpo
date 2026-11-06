@@ -1,0 +1,4 @@
+/// How many of something there are, never below zero.
+public type Amount = Int {
+    min: 0
+}

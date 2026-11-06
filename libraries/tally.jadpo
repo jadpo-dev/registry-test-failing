@@ -1,0 +1,12 @@
+/// Adding up amounts.
+public library tally {
+    /// Every amount added together, and zero for none.
+    ///
+    /// ```jadpo
+    /// assert tally.total([]) == 0
+    /// ```
+    function total(amounts: List<Amount>) -> Amount {
+        // Deliberately wrong: it leaves out the last amount, so the test fails.
+        return Amount(list.sum(list.drop_last(amounts, 1)))
+    }
+}

@@ -1,0 +1,6 @@
+/// Tally: adding up counts of things, such as items in a basket.
+package Tally.v1 {
+    publisher: "@jadpo-test"
+    licence: Licence.mit
+    jadpo: "0.3"
+}
